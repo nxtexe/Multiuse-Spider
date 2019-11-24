@@ -144,7 +144,6 @@ class BookSpider():
 								}
 							]
 					}"""
-		start = time.time()
 		main_soup = BeautifulSoup(response, "html.parser")
 		#extract a tags and their attributes
 		for tag in self.tag_list:
