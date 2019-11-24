@@ -139,7 +139,9 @@ class BookSpider():
 		"""Returns data in form {
 						<tag>:
 							[
-								{<atrribs>}
+								{
+									<atrribs>: <values>
+								}
 							]
 					}"""
 		start = time.time()
